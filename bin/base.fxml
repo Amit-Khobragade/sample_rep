@@ -1,0 +1,14 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:controller="com.controls.Control" xmlns:fx="http://javafx.com/fxml">
+	<center>
+		<HBox fx:id="mainScene" />
+	</center>
+	<bottom>
+		<HBox alignment="center">
+			<Button text="generate" />
+		</HBox>
+	</bottom>
+</BorderPane>
