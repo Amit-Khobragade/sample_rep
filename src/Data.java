@@ -8,6 +8,9 @@ public class Data {
 	public String getVenue() {
 		return venue;
 	}
+	public static Data getInstance() {
+		return instance;
+	}
 
 	public void setName( String name ) {
 		this.name = name;
@@ -19,5 +22,5 @@ public class Data {
 
 	private String name = "";
 	private String venue = "";
-	private Data instance = new Data();
+	private static Data instance = new Data();
 }
