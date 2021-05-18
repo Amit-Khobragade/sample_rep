@@ -4,11 +4,6 @@
 
 <BorderPane fx:controller="com.controls.Control" xmlns:fx="http://javafx.com/fxml">
 	<center>
-		<HBox fx:id="mainScene" />
+		<HBox fx:id="mainScene" alignment="center"/>
 	</center>
-	<bottom>
-		<HBox alignment="center">
-			<Button text="generate" />
-		</HBox>
-	</bottom>
 </BorderPane>
