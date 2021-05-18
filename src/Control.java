@@ -30,6 +30,15 @@ public class Control{
 	@FXML
 	public void handleAction() {
 		baseControl.store();
+		mainScene.getChildren().clear();
+		try {
+			mainScene.getChildren().add( FXMLLoader.load( getClass().getResource( "/scene2.fxml" ) ));
+		}
+		catch( Exception ex ){
+			System.out.println( "Control handle error" );
+			ex.printStackTrace();
+			System.exit( 1 );
+		}
 	}
 	private Control1 baseControl;
 	private GridPane firstScene;
