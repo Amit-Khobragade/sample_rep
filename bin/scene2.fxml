@@ -1,0 +1,11 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:controller="com.controls.Control2" xmlns:fx="http://javafx.com/fxml"
+			hgap="10" vgap="10">
+			<Label text="Happy Bday " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+			<Label fx:id="name" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+			
+			<Label text="at " GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+			<Label fx:id="venue" GridPane.rowIndex="1" GridPane.columnIndex="1"/>			
+</GridPane>
